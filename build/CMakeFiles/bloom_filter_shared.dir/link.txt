@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -O3 -march=native -shared -Wl,-soname,libbloomfilter.so -o libbloomfilter.so CMakeFiles/bloom_filter_shared.dir/src/MurmurHash3.cpp.o CMakeFiles/bloom_filter_shared.dir/src/bloom_filter_c.cpp.o 
